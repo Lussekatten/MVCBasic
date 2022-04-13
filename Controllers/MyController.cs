@@ -8,23 +8,23 @@ namespace MVCEmpty.Controllers
 {
     public class MyController : Controller
     {
-        public IActionResult Home()
+        public ViewResult Home()
         {
             ViewBag.Date = DateTime.Now.ToString();
             return View();
         }
-        public IActionResult About()
+        public ViewResult About()
         {
             ViewBag.Title = "Lucian testar viewbag";
             ViewBag.Date = DateTime.Now.ToString();
             return View();
         }
-        public IActionResult Contact()
+        public ViewResult Contact()
         {
             ViewBag.Date = DateTime.Now.ToString();
             return View();
         }
-        public IActionResult Projects()
+        public ViewResult Projects()
         {
             ViewBag.Date = DateTime.Now.ToString();
             return View();
